@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras - Supermercados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Escolha seu Supermercado</h1>
+  </header>
+
+  <main class="container">
+    <!-- Campo para adicionar supermercado -->
+    <div class="add-supermercado">
+      <input type="text" id="novoSupermercado" placeholder="Digite o nome do supermercado">
+      <button onclick="adicionarSupermercado()">Adicionar</button>
+    </div>
+
+    <!-- Lista de supermercados -->
+    <div id="lista-supermercados"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
